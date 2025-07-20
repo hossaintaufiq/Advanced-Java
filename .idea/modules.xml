@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Armstrong Number/Armstrong Number.iml" filepath="$PROJECT_DIR$/Armstrong Number/Armstrong Number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DuplicateCharacters/DuplicateCharacters.iml" filepath="$PROJECT_DIR$/DuplicateCharacters/DuplicateCharacters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Factorial/Factorial.iml" filepath="$PROJECT_DIR$/Factorial/Factorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GCD/GCD.iml" filepath="$PROJECT_DIR$/GCD/GCD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NumberOfVowels/NumberOfVowels.iml" filepath="$PROJECT_DIR$/NumberOfVowels/NumberOfVowels.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pattern/Pattern.iml" filepath="$PROJECT_DIR$/Pattern/Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice Code.iml" filepath="$PROJECT_DIR$/Practice Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrimeFactors/PrimeFactors.iml" filepath="$PROJECT_DIR$/PrimeFactors/PrimeFactors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReverseString/ReverseString.iml" filepath="$PROJECT_DIR$/ReverseString/ReverseString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortCheck/SortCheck.iml" filepath="$PROJECT_DIR$/SortCheck/SortCheck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SumOfDigits/SumOfDigits.iml" filepath="$PROJECT_DIR$/SumOfDigits/SumOfDigits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/isPrime/isPrime.iml" filepath="$PROJECT_DIR$/isPrime/isPrime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/isSymmetric/isSymmetric.iml" filepath="$PROJECT_DIR$/isSymmetric/isSymmetric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methodOverWriting/methodOverWriting.iml" filepath="$PROJECT_DIR$/methodOverWriting/methodOverWriting.iml" />
+    </modules>
+  </component>
+</project>
