@@ -17,6 +17,11 @@ public class SavingsAccount implements BankAccount{
         }
     }
 
+    @Override
+    public void deposit(double amount) {
+        balance +=amount;
+    }
+
     public double getBalance(){
         return balance;
     }
