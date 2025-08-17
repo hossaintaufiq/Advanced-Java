@@ -7,16 +7,27 @@ import java.util.Scanner;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+    public static void main(String[] args) {
     String fileName = "library.txt";
 
     // Step 1: Create library file with some books
-        try {
-        FileWriter fw = new FileWriter(fileName);
-        fw.write("Harry Potter\n");
-        fw.write("To Kill a Mockingbird\n");
-        fw.write("The Hobbit\n");
-        fw.close();
-    } catch (IOException e) {
+
+    String []list= {"Harry Potter","To Kill a Mockingbird","The Hobbit"};
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))){
+//        FileWriter fw = new FileWriter(fileName);
+//        fw.write("Harry Potter\n");
+//        fw.write("To Kill a Mockingbird\n");
+//        fw.write("The Hobbit\n");
+//        fw.close();
+
+        for(String s: list){
+            writer.write(s);
+            writer.newLine();
+
+        }
+            System.out.println("List Added succesfully");
+
+    } catch(IOException e) {
         System.out.println("Error creating library file!");
     }
 
@@ -56,4 +67,4 @@ public class Main {
             if (!found) {
                 throw new BookNotAvailableException("The book '" + title + "' is not available.");
             }
-        }
+        }}
