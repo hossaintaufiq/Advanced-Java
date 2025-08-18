@@ -7,9 +7,16 @@ public class Main {
 
         // Step 1: Write initial balance to file
         try {
-            FileWriter fw = new FileWriter(fileName);
-            fw.write(String.valueOf(initialBalance));
-            fw.close();
+//            BufferedReader br = new BufferedReader(new FileReader(fileName));
+//            FileWriter fw = new FileWriter(fileName);
+//            fw.write(String.valueOf(initialBalance));
+//            fw.close();
+
+            BufferedWriter bw= new BufferedWriter(new FileWriter(fileName));
+            bw.write("Account Balance: " + initialBalance + "\n");
+            bw.newLine();
+            bw.close();
+
         } catch (IOException e) {
             System.out.println("Error writing balance to file!");
         }
